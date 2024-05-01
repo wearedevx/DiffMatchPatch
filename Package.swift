@@ -13,6 +13,13 @@ let package = Package(
 			targets: [
 				"DiffMatchPatch"
 			]
+		),
+		.library(
+			name: "DiffMatchPatch",
+			type: .static,
+			targets: [
+				"DiffMatchPatch"
+			]
 		)
 	],
 	targets: [
